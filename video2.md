@@ -27,4 +27,9 @@ when that traditional approach breaks down, the fix is learning the reduced coor
   - neural implicit flow (NIF) was used in a "vibrating calcium" example, which won an undergrad research award.
   - genetic programming discovers equations from data for nuclear density functional theory, applied to 48Ca skyrme and RMF DFT models.
 
-- big picture takeaways: dimensionality reduction is genuinely two separable steps, which means you can mix and match different methods for each one. learning from data can substitute for hand-derived equations when the traditional approach breaks down. combining theory, stats, ML, and experiment is pushing nuclear physics toward a new era of discovery and could help build the future nuclear physics workforce.
+reduced basis method in summary:
+- find good reduced coordinates
+- find dynamics
+- if linearly embeddable, use the galerkin approach
+
+for antennas- need nonlinear approach, so autoencoding?
